@@ -1,0 +1,115 @@
+/* Write your CSS here */
+.body-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.navbar-container {
+  display: flex;
+  justify-content: space-between;
+  width: 85%;
+  margin-bottom: 8px;
+}
+
+.left-navbar {
+  background-color: #e2e8f0;
+  padding: 20px 25px;
+  width: 30%;
+  margin-right: 5px;
+}
+
+.content {
+  background-color: #f1f5f9;
+  padding: 20px 25px;
+  width: 40%;
+  margin-right: 5px;
+}
+
+.right-navbar {
+  background-color: #e2e8f0;
+  padding: 20px 25px;
+  width: 30%;
+}
+
+.body-card-heading {
+  color: #475569;
+  font-size: 17px;
+  margin-bottom: 17px;
+}
+
+.left-navbar-items {
+  list-style-type: none;
+  padding-left: 10px;
+}
+
+.right-navbar-items {
+  list-style-type: none;
+  padding-left: 0px;
+}
+
+.body-card-description {
+  margin-bottom: 14px;
+  font-size: 18px;
+  color: #475569;
+}
+
+.ads {
+  padding: 50px;
+  border: 1px solid;
+  text-align: center;
+}
+
+@media screen and (max-width: 767px) {
+  .navbar-container {
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 600px;
+  }
+
+  .left-navbar {
+    width: 100%;
+    margin: 0px;
+    margin-bottom: 6px;
+  }
+
+  .content {
+    width: 100%;
+    margin: 0px;
+    margin-bottom: 6px;
+  }
+
+  .right-navbar {
+    width: 100%;
+    margin: 0px;
+    margin-bottom: 6px;
+  }
+
+  .body-card-heading {
+    text-align: center;
+  }
+
+  .left-navbar-items {
+    padding: 0px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    max-width: 250px;
+  }
+
+  .body-card-description {
+    margin: 12px;
+    text-align: center;
+    font-size: 14px;
+  }
+
+  .right-navbar-items {
+    display: flex;
+  }
+
+  .ads {
+    width: 50%;
+    padding: 60px 0px 60px 0px;
+  }
+}

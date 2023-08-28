@@ -1,0 +1,33 @@
+/* Write your CSS here */
+.header-bg-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 40px;
+  margin-bottom: 8px;
+}
+
+.header-container {
+  text-align: center;
+  background-color: #cbd5e1;
+  width: 85%;
+}
+
+.header {
+  margin-left: 8px;
+  font-size: 34px;
+  color: #475569;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  margin: 10px;
+}
+
+@media screen and (max-width: 767px) {
+  .header {
+    font-size: 23px;
+  }
+
+  .header-bg-container {
+    margin-bottom: 5px;
+  }
+}
